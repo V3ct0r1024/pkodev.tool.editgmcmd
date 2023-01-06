@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NameCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FileRequiredCommand.cpp">
+      <Filter>Commands\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressRequiredCommand.cpp">
+      <Filter>Commands\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportedCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckExecutableCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="BackupRequiredCommand.cpp">
+      <Filter>Commands\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Output.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{c819130e-7dd0-4188-96dd-17e3a5325d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a3296215-4ec0-4c96-b6aa-cb0514de5842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Features">
+      <UniqueIdentifier>{e7238e0a-012d-4065-aaeb-f0697848936f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRequiredCommand.h">
+      <Filter>Commands\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressRequiredCommand.h">
+      <Filter>Commands\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportedCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckExecutableCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="BackupRequiredCommand.h">
+      <Filter>Commands\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
